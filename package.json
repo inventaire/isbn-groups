@@ -1,6 +1,6 @@
 {
   "name": "isbn-groups",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "country and language data on ISBN groups",
   "main": "index.js",
   "scripts": {
