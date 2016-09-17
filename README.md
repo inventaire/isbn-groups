@@ -34,7 +34,7 @@ const { prefix, group } = parser(isbnB).codes
 // group: '9953'
 
 isbnGroups[prefix][group]
-// { label: 'Lebanon', lang: 'ar' }
+// => { label: 'Lebanon', lang: 'ar' }
 
 ```
 
