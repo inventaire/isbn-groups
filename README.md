@@ -29,7 +29,7 @@ isbnGroups[prefix][group]
 * example 2
 ```js
 const isbn = '9789953211206'
-const { prefix, group } = parser(isbnB).codes
+const { prefix, group } = parser(isbn).codes
 // prefix: '978'
 // group: '9953'
 
