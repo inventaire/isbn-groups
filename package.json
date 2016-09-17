@@ -1,0 +1,17 @@
+{
+  "name": "isbn-groups",
+  "version": "1.0.0",
+  "description": "country and language data on ISBN groups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ISBN",
+    "country",
+    "language",
+    "groups"
+  ],
+  "author": "maxlath",
+  "license": "MIT"
+}
