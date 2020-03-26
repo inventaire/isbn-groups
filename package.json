@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "country and language data on ISBN groups",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "languages_and_countries.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +17,13 @@
     "groups"
   ],
   "author": "maxlath",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inventaire/isbn-groups.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inventaire/isbn-groups/issues"
+  },
+  "homepage": "https://github.com/inventaire/isbn-groups#readme"
 }
