@@ -1,6 +1,4 @@
-var languagesAndCountries = require('./languages_and_countries')
-var languages = languagesAndCountries.languages
-var countries = languagesAndCountries.countries
+const { languages, countries } = require('./languages_and_countries')
 
 module.exports = {
   '978': {

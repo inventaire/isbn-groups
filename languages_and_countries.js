@@ -1,4 +1,4 @@
-exports.languages = {
+const languages = {
   en: {
     label: 'English',
     lang: 'en'
@@ -13,7 +13,7 @@ exports.languages = {
   }
 }
 
-exports.countries = {
+const countries = {
   japan: {
     label: 'Japan',
     lang: 'ja'
@@ -489,3 +489,5 @@ exports.countries = {
     lang: 'fr'
   }
 }
+
+module.exports = { languages, countries }
