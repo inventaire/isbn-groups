@@ -1,0 +1,13 @@
+# To be run on https://query.wikidata.org
+SELECT ?country ?countryLabel ?language ?languageLabel (GROUP_CONCAT(DISTINCT ?lang6391_val; separator="|") AS ?lang6391) (GROUP_CONCAT(DISTINCT ?lang6392_val; separator="|") AS ?lang6392) (GROUP_CONCAT(DISTINCT ?lang6393_val; separator="|") AS ?lang6393) (GROUP_CONCAT(DISTINCT ?lang6396_val; separator="|") AS ?lang6396) (GROUP_CONCAT(DISTINCT ?wmLang_val; separator="|") AS ?wmLang)  {
+  VALUES (?country_type) { (wd:Q7275) (wd:Q3624078) (wd:Q6256) (wd:Q15634554) (wd:Q133442)}
+  ?country wdt:P31 ?country_type .
+  ?country wdt:P37 ?language .
+  OPTIONAL { ?language wdt:P218 ?lang6391_val . }
+  OPTIONAL { ?language wdt:P219 ?lang6392_val . }
+  OPTIONAL { ?language wdt:P220 ?lang6393_val . }
+  OPTIONAL { ?language wdt:P221 ?lang6396_val . }
+  OPTIONAL { ?language wdt:P424 ?wmLang_val . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?country ?countryLabel ?language ?languageLabel
