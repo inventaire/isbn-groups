@@ -1,9 +1,11 @@
 {
   "name": "isbn-groups",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "mapping ISBN group prefixes with ISO 639-1 language codes (2 letters code)",
   "main": "lib/index.js",
-  "files": [ "lib" ],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "check-completeness": "./scripts/check_completeness.js",
     "test": "echo \"Error: no test specified\" && exit 1"
