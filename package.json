@@ -8,6 +8,7 @@
     "languages_and_countries.js"
   ],
   "scripts": {
+    "check-completeness": "./scripts/check_completeness.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,5 +29,9 @@
   "homepage": "https://github.com/inventaire/isbn-groups#readme",
   "engines": {
     "node": ">= 6.4.0"
+  },
+  "devDependencies": {
+    "isbn3": "^1.0.7",
+    "tiny-chalk": "^2.0.0"
   }
 }
