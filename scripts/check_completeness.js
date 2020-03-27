@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const index = require('../index')
+const index = require('../lib/index')
 const groups = require('isbn3/lib/groups')
 const { yellow, red, grey } = require('tiny-chalk')
 
