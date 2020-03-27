@@ -1,11 +1,11 @@
-const { languages, countries } = require('./languages_and_countries')
+const countries = require('./countries_lang')
 
 module.exports = {
   '978': {
-    '0': languages.en,
-    '1': languages.en,
-    '2': languages.fr,
-    '3': languages.de,
+    '0': 'en',
+    '1': 'en',
+    '2': 'fr',
+    '3': 'de',
     '4': countries.japan,
     '5': countries.ussr,
     '7': countries.china,

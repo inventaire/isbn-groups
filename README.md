@@ -1,7 +1,5 @@
 # isbn-groups
-country and language data on ISBN groups
-
-**this is not perfect and new ISBN groups are created regularly: your help is welcome to improve the countries/languages matching, and keep it all up-to-date!**
+mapping ISBN group prefixes with ISO 639-1 language codes (2 letters code), when that's possible, that is a strong assumption that a book published in that country would be in that language
 
 ## Installation
 ```sh
@@ -24,7 +22,7 @@ const { prefix, group } = parse(isbn)
 // group: '2'
 
 isbnGroups[prefix][group]
-// => { label: 'French', lang: 'fr' }
+// => 'fr'
 ```
 * example 2
 ```js
@@ -34,7 +32,7 @@ const { prefix, group } = parse(isbn)
 // group: '9953'
 
 isbnGroups[prefix][group]
-// => { label: 'Lebanon', lang: 'ar' }
+// => 'ar'
 
 ```
 
