@@ -1,6 +1,6 @@
 {
   "name": "isbn-groups",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "mapping ISBN group prefixes with ISO 639-1 language codes (2 letters code)",
   "main": "index.js",
   "files": [
