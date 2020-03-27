@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/inventaire/isbn-groups/issues"
   },
-  "homepage": "https://github.com/inventaire/isbn-groups#readme"
+  "homepage": "https://github.com/inventaire/isbn-groups#readme",
+  "engines": {
+    "node": ">= 6.4.0"
+  }
 }
